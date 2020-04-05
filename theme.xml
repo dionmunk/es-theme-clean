@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Clean
+version:        1.0
+author:         Dion Munk
+email:          dion@dionmunk.com
+website:        dionmunk.com
+license:        creative commons CC BY-NC-SA
+
+There are multiple options available for the type of screen that you will be
+using. Change the xml file to one of the following depending on what screen
+you will be using.
+
+template: 320x240.xml
+4:3 ratio for screens with a 320x240 resolution. Ideal for a device like a
+RetroPie Zero or GPi Case. This template is simplified and maximizes the usage
+of the small screen.
+
+template: 4x3.xml
+4:3 ratio for screens with a 1024x768 resolution, but works well with 640x480,
+800x600 etc. Ideal for things like CRT monitors. The text in this template is
+too small for 320x240 screens.
+
+template: 16x9.xml
+16:9 ratio for screens with a 1280x720 resolution and larger. Ideal for most
+flat panel TVs.
+
+template: 16x10.xml
+16:10 ratio for screens with a 1280x800 resolution or larger. Ideal for most
+flat panel computer monitors.
+-->
+<theme>
+   <formatVersion>4</formatVersion>
+   <include>./_inc/templates/16x9.xml</include>
+</theme>
