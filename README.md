@@ -36,16 +36,33 @@ The theme supports resolutions from 320x240 and up. There are custom templates f
 - 16:9 layout for use on flat panel TVs
 - 16x10 layout for use on flat panel monitors
 
+## Customize
+
+To customize Clean to fit properly to your screen, customize the `theme.xml` file and change the template to the template that matches your screen aspect ratio.
+
+Clean's default aspect ratio template is 16:9, which should work for most flat panel LCD TVs. The 4:3 template is for CRT screens, and the 16:10 template is for many computer monitors and some flat panel LCD TVs. The 320x240 template was made for very small screens like the RetroFlag GPi Case.
+
 ## Installing
 
+- make sure your RetroPie is connected to the internet
 - on your RetroPie quit out of Emulation Station so that you are in the terminal
-- create a folder `~/.emulationstation/themes` if it does not exist.
-- run this command in the terminal
+- create a folder `~/.emulationstation/themes` if it does not exist
+- run these commands in the terminal
   
   ``` bash
   cd ~/.emulationstation/themes
   git clone git@github.com:dionmunk/es-theme-clean.git
   ```
+
+- after the theme is downloaded, go back into Emulation Station and select Clean from the setup menu
+
+### Alternate Install
+
+- download the zip archive of the Git repo: [Download](https://github.com/dionmunk/es-theme-clean/archive/master.zip)
+- extract the zip archive into a folder named `es-theme-clean`
+- follow the instructions to [transfer ROMS to your RetroPie](https://github.com/retropie/retropie-setup/wiki/Transferring-Roms), but copy the `es-theme-clean` folder to the `~/.emulationstation/themes` folder on your RetroPie
+- if the `~/.emulationstation/themes` folder doesn't exist on your RetroPie, then create it and copy `es-theme-clean` to it
+- after you've copied the theme to the RetroPie, go into Emulation Station and select Clean from the setup menu
 
 ## Future Plans
 
