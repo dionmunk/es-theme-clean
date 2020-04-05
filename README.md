@@ -10,25 +10,19 @@ The theme supports resolutions from 320x240 and up. There are custom templates f
 
 ### Flat Panel TV (16x9 Aspect Ratio)
 
-*Main View*
-![Main View](https://i.imgur.com/aly1VRZ.png)
+![16x9 Main View](https://i.imgur.com/aly1VRZ.png "16x9 Main View")
 
-*Basic View*
-![Basic View](https://i.imgur.com/DFLUsmV.png)
+![16x9 Basic View](https://i.imgur.com/DFLUsmV.png "16x9 Basic View")
 
-*Detailed/Video View*
-![Detailed/Video View](https://i.imgur.com/ekGue2V.png)
+![16x9 Detailed/Video View](https://i.imgur.com/ekGue2V.png "16x9 Detailed/Video View")
 
 ### RetroFlag GPi Case Screen (4:3 Aspect Radio at 320x240 resolution)
 
-*Main View*
-![Main View](https://i.imgur.com/1Ir6hqp.png)
+![320x240 Main View](https://i.imgur.com/1Ir6hqp.png "320x240 Main View")
 
-*Basic View*
-![Basic View](https://i.imgur.com/xyDZgDt.png)
+![320x240 Basic View](https://i.imgur.com/xyDZgDt.png "320x240 Basic View")
 
-*Detailed/Video View*
-![Detailed/Video View](https://i.imgur.com/L5LtWsN.png)
+![320x240 Detailed/Video View](https://i.imgur.com/L5LtWsN.png "320x240 Detailed/Video View")
 
 ## Features
 
@@ -47,7 +41,8 @@ The theme supports resolutions from 320x240 and up. There are custom templates f
 - on your RetroPie quit out of Emulation Station so that you are in the terminal
 - create a folder `~/.emulationstation/themes` if it does not exist.
 - run this command in the terminal
-  ```
+  
+  ``` bash
   cd ~/.emulationstation/themes
   git clone git@github.com:dionmunk/es-theme-clean.git
   ```
@@ -58,7 +53,7 @@ The theme supports resolutions from 320x240 and up. There are custom templates f
 
 ## Acknowledgements
 
-- many logo graphics are from the default Carbon theme made by Eric Hettervik (see: https://github.com/RetroPie/es-theme-carbon/)
+- many logo graphics are from the default [Carbon theme](https://github.com/RetroPie/es-theme-carbon/) made by Eric Hettervik.
 
 ## License
 
