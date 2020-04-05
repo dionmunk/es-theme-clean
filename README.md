@@ -8,15 +8,15 @@ The theme supports resolutions from 320x240 and up. There are custom templates f
 
 ## Screenshots
 
-### Flat Panel TV (16x9 Aspect Ratio)
+### Flat Panel TV (16:9 Aspect Ratio)
 
-![16x9 Main View](https://i.imgur.com/aly1VRZ.png "16x9 Main View")
+![16:9 Main View](https://i.imgur.com/aly1VRZ.png "16x9 Main View")
 
-![16x9 Basic View](https://i.imgur.com/DFLUsmV.png "16x9 Basic View")
+![16:9 Basic View](https://i.imgur.com/DFLUsmV.png "16x9 Basic View")
 
-![16x9 Detailed/Video View](https://i.imgur.com/ekGue2V.png "16x9 Detailed/Video View")
+![16:9 Detailed/Video View](https://i.imgur.com/ekGue2V.png "16x9 Detailed/Video View")
 
-### RetroFlag GPi Case Screen (4:3 Aspect Radio at 320x240 resolution)
+### RetroFlag GPi Case Screen (4:3 Aspect Ratio at 320x240 resolution)
 
 ![320x240 Main View](https://i.imgur.com/1Ir6hqp.png "320x240 Main View")
 
