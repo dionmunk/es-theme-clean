@@ -44,6 +44,28 @@ Clean's default aspect ratio template is 16:9, which should work for most flat p
 
 ## Installing
 
+Clean has officially been [added](https://github.com/RetroPie/RetroPie-Setup/pull/3038) to RetroPie and can be installed within the RetroPie Setup if you have the latest RetroPie Setup Script.
+
+- Go to **ES THEMES** in the Configuration menu.
+- Scroll down and select entry `192 Install dionmunk/clean`
+- After the theme is installed, go back to Emulation Station
+- Press **Start** on your input device to get to the **MAIN MENU**
+- Select **UI SETTINGS**
+- Scroll down to **THEME SET** and using left/right select **CLEAN**
+- Press **B** twice to back out of the menu and your theme will change to **CLEAN**
+
+**NOTE:** If Clean isn't in the list of themes that are available to install, you need to updat your RetroPie Setup Script.
+
+- Go to **RETROPIE SETUP** in the Configuration menu.
+- Scroll down and select entry **Update RetroPie-Setup script**
+- You'll be asked if you want to update the script, select **Yes**
+- Select **OK** when it says it fetched the latest version.
+- Select **OK** again when it notifies you about the RetroPie disclaimer.
+- Then **Exit** at the bottom
+- Then follow the directions above
+
+### Manual Installation
+
 - make sure your RetroPie is connected to the internet
 - on your RetroPie quit out of Emulation Station so that you are in the terminal
 - create a folder `~/.emulationstation/themes` if it does not exist
