@@ -16,16 +16,16 @@ template: 320x240.xml
 RetroPie Zero or GPi Case. This template is simplified and maximizes the usage
 of the small screen.
 
-template: 4x3.xml
+template: 4x3.xml or 4x3-bezel.xml (CRT bezel over media)
 4:3 ratio for screens with a 1024x768 resolution, but works well with 640x480,
 800x600 etc. Ideal for things like CRT monitors. The text in this template is
 too small for 320x240 screens.
 
-template: 16x9.xml
+template: 16x9.xml or 16x9-bezel.xml (CRT bezel over media)
 16:9 ratio for screens with a 1280x720 resolution and larger. Ideal for most
 flat panel TVs.
 
-template: 16x10.xml
+template: 16x10.xml or 16x10-bezel.xml (CRT bezel over media)
 16:10 ratio for screens with a 1280x800 resolution or larger. Ideal for most
 flat panel computer monitors.
 -->

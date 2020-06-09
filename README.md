@@ -16,6 +16,8 @@ The theme supports resolutions from 320x240 and up. There are custom templates f
 
 ![16:9 Detailed/Video View](https://i.imgur.com/ekGue2V.png "16x9 Detailed/Video View")
 
+![16:9 Bezel View](https://i.imgur.com/l6HJVyr.png "16x9 Bezel View")
+
 ### RetroFlag GPi Case Screen (4:3 Aspect Ratio at 320x240 resolution)
 
 ![320x240 Main View](https://i.imgur.com/1Ir6hqp.png "320x240 Main View")
@@ -35,6 +37,7 @@ The theme supports resolutions from 320x240 and up. There are custom templates f
 - 4:3 layout for use on CRT monitors
 - 16:9 layout for use on flat panel TVs
 - 16x10 layout for use on flat panel monitors
+- Alternate 4:3, 16:9, and 16:10 layouts that place a CRT-like bezel over the game screenshot and/or video. See theme.xml file for more details.
 
 ## Customize
 
@@ -54,7 +57,7 @@ Clean has officially been [added](https://github.com/RetroPie/RetroPie-Setup/pul
 - Scroll down to **THEME SET** and using left/right select **CLEAN**
 - Press **B** twice to back out of the menu and your theme will change to **CLEAN**
 
-**NOTE:** If Clean isn't in the list of themes that are available to install, you need to updat your RetroPie Setup Script.
+**NOTE:** If Clean isn't in the list of themes that are available to install, you need to update your RetroPie Setup Script.
 
 - Go to **RETROPIE SETUP** in the Configuration menu.
 - Scroll down and select entry **Update RetroPie-Setup script**

@@ -1,0 +1,251 @@
+<theme>
+
+  <formatVersion>4</formatVersion>
+
+  <feature supported="carousel">
+    <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <origin>0.5 0.5</origin>
+        <pos>0.5 0.34</pos>
+        <size>1 0.3</size>
+        <color>000000</color>
+        <logoSize>0.6 0.08</logoSize>
+        <logoScale>1.75</logoScale>
+        <maxLogoCount>1</maxLogoCount>
+      </carousel>
+      <text name="logoText">
+        <origin>0.5 0.5</origin>
+        <pos>0.5 0.305</pos>
+        <fontSize>0.17</fontSize>
+        <fontPath>./../fonts/opensans.ttf</fontPath>
+        <forceUppercase>1</forceUppercase>
+        <color>ffffff</color>
+      </text>
+      <image name="seperator" extra="true">
+        <path>./../images/space.png</path>
+        <origin>0.5 0.5</origin>
+        <pos>0.5 0.50</pos>
+        <size>1 0.005</size>
+        <color>ffffff</color>
+      </image>
+      <text name="systemInfo">
+        <backgroundColor>000000</backgroundColor>
+        <pos>0 0.59</pos>
+        <color>ffffff</color>
+        <fontPath>./../fonts/opensans.ttf</fontPath>
+        <fontSize>0.055</fontSize>
+      </text>
+    </view>
+  </feature>
+
+  <view name="system, basic, detailed, video">
+    <image name="background_all" extra="true">
+      <path>./../images/space.png</path>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <color>000000</color>
+    </image>
+    <helpsystem name="help">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.97</pos>
+      <textColor>ffffff</textColor>
+      <iconColor>ffffff</iconColor>
+      <fontPath>./../fonts/opensans.ttf</fontPath>
+      <fontSize>0.0225</fontSize>
+    </helpsystem>
+  </view>
+
+  <view name="basic, detailed, video">
+    <image name="logo">
+      <origin>0.5 0</origin>
+      <pos>0.5 0.043</pos>
+      <maxSize>1 0.12</maxSize>
+    </image>
+    <text name="logoText">
+      <fontPath>./../fonts/opensans.ttf</fontPath>
+      <origin>0.5 0</origin>
+      <pos>0.5 0.025</pos>
+      <fontSize>0.055</fontSize>
+      <forceUppercase>1</forceUppercase>
+    </text>
+    <image name="logo_seperator" extra="true">
+      <path>./../images/space.png</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.22</pos>
+      <size>1 0.005</size>
+      <color>ffffff</color>
+    </image>
+    <image name="help_seperator" extra="true">
+      <path>./../images/space.png</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.935</pos>
+      <size>1 0.005</size>
+      <color>ffffff</color>
+    </image>
+  </view>
+
+  <view name="basic">
+    <textlist name="gamelist">
+      <selectorColor>ffffff</selectorColor>
+      <selectedColor>000000</selectedColor>
+      <primaryColor>ffffff</primaryColor>
+      <secondaryColor>666666</secondaryColor>
+      <fontPath>./../fonts/opensans.ttf</fontPath>
+      <origin>0.5 0</origin>
+      <pos>0.5 0.275</pos>
+      <size>0.67 0.61</size>
+      <fontSize>0.0225</fontSize>
+      <lineSpacing>1.5</lineSpacing>
+      <horizontalMargin>0.015</horizontalMargin>
+      <forceUppercase>0</forceUppercase>
+    </textlist>
+  </view>
+
+  <view name="detailed">
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0.75 0.425</pos>
+      <size>0.22 0.3</size>
+    </image>
+  </view>
+
+  <feature supported="video">
+    <view name="video">
+      <video name="md_video">
+        <origin>0.5 0.5</origin>
+        <pos>0.75 0.425</pos>
+        <size>0.22 0.3</size>
+        <delay>2</delay>
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+    </view>
+  </feature>
+
+  <view name="detailed, video">
+    <textlist name="gamelist">
+      <selectorColor>ffffff</selectorColor>
+      <selectedColor>000000</selectedColor>
+      <primaryColor>ffffff</primaryColor>
+      <secondaryColor>cccccc</secondaryColor>
+      <fontPath>./../fonts/opensans.ttf</fontPath>
+      <origin>0.5 0</origin>
+      <pos>0.25 0.275</pos>
+      <size>0.45 0.61</size>
+      <alignment>center</alignment>
+      <fontSize>0.0225</fontSize>
+      <lineSpacing>1.5</lineSpacing>
+      <horizontalMargin>0.015</horizontalMargin>
+      <forceUppercase>1</forceUppercase>
+    </textlist>
+
+    <image name="bezel" extra="true">
+      <path>./../images/bezel.png</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.75 0.425</pos>
+      <maxSize>0.32 0.32</maxSize>
+      <zIndex>100</zIndex>
+    </image>
+
+    <text name="md_description, md_developer, md_favorite, md_genre, md_hidden, md_kidgame, md_lastplayed, md_playcount, md_players, md_publisher, md_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_publisher, md_lbl_rating, md_lbl_releasedate
+      ">
+      <color>ffffff</color>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>./../fonts/opensans.ttf</fontPath>
+      <fontSize>0.0225</fontSize>
+    </text>
+
+    <!-- left side metadata -->
+
+    <text name="md_lbl_rating">
+      <pos>0.525 0.6</pos>
+      <size>0 0.0225</size>
+    </text>
+
+    <rating name="md_rating">
+      <pos>0.585 0.605</pos>
+      <size>0.20 0.0225</size>
+      <filledPath>./../images/star_filled.svg</filledPath>
+      <unfilledPath>./../images/star_unfilled.svg</unfilledPath>
+    </rating>
+
+    <text name="md_lbl_players">
+      <pos>0.525 0.63</pos>
+      <size>0 0.0225</size>
+    </text>
+
+    <text name="md_players">
+      <pos>0.59 0.6353</pos>
+      <size>0.14 0.0225</size>
+    </text>
+
+    <text name="md_lbl_genre">
+      <pos>0.525 0.66</pos>
+      <size>0 0.0225</size>
+    </text>
+
+    <text name="md_genre">
+      <pos>0.58 0.6657</pos>
+      <size>0.14 0.0225</size>
+    </text>
+
+    <text name="md_lbl_releasedate">
+      <pos>0.525 0.691</pos>
+      <size>0 0.0225</size>
+    </text>
+
+    <datetime name="md_releasedate">
+      <pos>0.6 0.691</pos>
+      <size>0 0.0225</size>
+    </datetime>
+
+    <!-- right side metadata -->
+
+    <text name="md_lbl_developer">
+      <pos>0.75 0.6</pos>
+      <size>0 0.0225</size>
+    </text>
+
+    <text name="md_developer">
+      <pos>0.835 0.606</pos>
+      <size>0.12 0.0225</size>
+    </text>
+
+    <text name="md_lbl_publisher">
+      <pos>0.75 0.63</pos>
+      <size>0 0.0225</size>
+    </text>
+
+    <text name="md_publisher">
+      <pos>0.834 0.636</pos>
+      <size>0.12 0.0225</size>
+    </text>
+
+    <text name="md_lbl_playcount">
+      <pos>0.75 0.66</pos>
+      <size>0 0.0225</size>
+    </text>
+
+    <text name="md_playcount">
+      <pos>0.85 0.66605</pos>
+      <size>0.12 0.0225</size>
+    </text>
+
+    <text name="md_lbl_lastplayed">
+      <pos>0.75 0.697</pos>
+      <size>0.15 0.0225</size>
+    </text>
+
+    <datetime name="md_lastplayed">
+      <pos>0.84 0.692</pos>
+      <size>0 0.0225</size>
+    </datetime>
+
+    <text name="md_description">
+      <pos>0.525 0.7425</pos>
+      <size>0.45 0.13</size>
+    </text>
+  </view>
+</theme>
