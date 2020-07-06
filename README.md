@@ -37,7 +37,7 @@ The theme supports resolutions from 320x240 and up. There are custom templates f
 - 4:3 layout for use on CRT monitors
 - 16:9 layout for use on flat panel TVs
 - 16x10 layout for use on flat panel monitors
-- Alternate 4:3, 16:9, and 16:10 layouts that place a CRT-like bezel over the game screenshot and/or video. See theme.xml file for more details.
+- Alternate 4:3, 16:9, and 16:10 layouts that place a CRT-like bezel over the game screenshot and/or video. Only works correctly if Use OMX Player is set to Off in the EmulationStation settings menu. See theme.xml file for more details.
 
 ## Customize
 
